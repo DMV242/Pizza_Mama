@@ -1,0 +1,30 @@
+body{
+   background:url("images/main_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color : white;
+  margin : 0px ;
+  font-family : Arial;
+}
+.block{
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+}
+.lien{
+    position: absolute; /* postulat de départ */
+    top: 120%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    text-decoration : none;
+    color : #DD7835;
+}
+
+.lien:hover{
+background-color: #DD7835;
+color : white;
+display : inline;
+padding : 8px 22px;
+
+}
