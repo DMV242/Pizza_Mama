@@ -4,6 +4,10 @@ python:
 before_script:
   - pip install -r requirements.txt
 
+branches:
+  only:
+    - main
+
 env:
  - DJANGO_SETTINGS_MODULE="pizzamama.settings.production"
 
